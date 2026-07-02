@@ -10,5 +10,5 @@ for i in range(n):
 print("Total Bill:", total)
 
 if total > 1000:
-    total -= total * 0.1
-    print("After 7% discount:", total)
+    total = total - (total * 0.1)
+    print("After 10% discount:", total)
